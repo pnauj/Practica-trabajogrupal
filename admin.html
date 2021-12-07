@@ -15,7 +15,9 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid row-reverse">
-          <a class="navbar-brand" href="index.html">Navbar</a>
+          <a class="navbar-brand" href="index.html">
+            <img src="img/descarga.jpg" class="img-fluid logo" alt="..." width="200px">
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -41,22 +43,59 @@
                 <a class="nav-link" href="#">Sobre Nosotros</a>
               </li>
             </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="buscar">
+              <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
           </div>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <h1 class="style-5 text-center">Administracion</h1>
+      <hr>
+      <section class="container bg-ligth my-5">
+        <form>
+          <div class="mb-3">
+            <label for="codigo" class="form-label">Codigo</label>
+            <input type="text" class="form-control" id="codigo" placeholder="1234">
+          </div>
+          <div class="mb-3">
+            <label for="producto" class="form-label">Producto</label>
+            <input type="text" class="form-control" id="producto" placeholder="nombre del producto">
+          </div>
+          <div class="mb-3">
+            <label for="descripcion" class="form-label">Descripcion</label>
+            <textarea  id="descripcion" rows="4" class="form-control" placeholder="descripcion del producto"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="cantidad" class="form-label">Cantidad</label>
+            <input type="number" class="form-control" id="cantidad" placeholder="10">
+          </div>
+          <div class="mb-3">
+            <label for="url" class="form-label">Url</label>
+            <input type="text" class="form-control" id="Url" placeholder="name@example.com">
+          </div>
+          <button class="btn btn-primary" type="submit">Guardar</button>
+        </form>
+      </section>
+    </main>
     <footer class="container-fluid bg-dark text-center text-light">
       <section class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6 my-5">
-          <p>Logo + link</p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 my-5">
-          <p>&copy; Todos los Derechos reservados</p>
-        </div>
+        <section class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 my-5">
+            <img src="img/descarga.jpg" class="img-fluid logo" alt="..." width="200px">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 my-5">
+              <p>&copy; Todos los Derechos reservados</p> 
+          </div>
+      </section>
       </section>
     </footer>
     <script src="js/admin.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+
+
+13 --- 1:21
