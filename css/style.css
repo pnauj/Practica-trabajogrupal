@@ -6,3 +6,13 @@
 .logo {
     border-radius: 50%;
 }
+
+
+@media all and (min-width: 360px) and (max-width: 740px) {
+    .baner {
+        height: 300px;
+        width: 500px;
+        object-fit: cover;
+    }
+
+}
