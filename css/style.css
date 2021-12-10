@@ -1,8 +1,20 @@
 .card {
     border: none;
+
 }
 
 
 .logo {
     border-radius: 50%;
+}
+
+.fotoperfil{
+    text-align: center;
+}
+
+.fotoperfil-img{
+    width: 175px;
+    height:175px;
+    object-fit: cover;
+    border-radius: 100px;
 }
