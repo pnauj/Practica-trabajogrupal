@@ -32,3 +32,8 @@ img:hover{
     text-align: center;
     
   }
+  .imagen{
+      width: 55% ;
+      height: 70%;
+      box-shadow: 5px 5px 10px gray;
+  }
