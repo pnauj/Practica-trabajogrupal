@@ -29,8 +29,8 @@ let campoDescripcion = document.querySelector("#descripcion");
 let campoDireccion = document.querySelector("#Url");
 let formularioCompleto = document.querySelector("#formularioPagina");
 
-campoProducto.addEventListener("blur",()=>{campoNecesario(campoProducto)});
+campoProducto.addEventListener("blur", ()=>{campoNecesario(campoProducto)});
 campoCodigo.addEventListener("blur", ()=>{campoNecesario(campoCodigo)});
-campoDescripcion.addEventListener("blur", ()=> {campoNecesario(campoDescripcion)});
+campoDescripcion.addEventListener("blur", ()=>{campoNecesario(campoDescripcion)});
 campoDireccion.addEventListener('blur', ()=>{validacionURL(campoDireccion)});
 formularioCompleto.addEventListener("submit", helperGeneral);

@@ -59,19 +59,31 @@
         <form id="formularioPagina">
           <div class="mb-3">
             <label for="codigo" class="form-label">Codigo</label>
-            <input type="text" class="form-control" id="codigo" placeholder="1234">
+            <input type="text" class="form-control" id="codigo" placeholder="1234"/>
+            <div class="invalid-feedback">
+              Debe ingresar almenos un caracter
+            </div>
           </div>
           <div class="mb-3">
             <label for="producto" class="form-label">Producto</label>
-            <input type="text" class="form-control" id="producto" placeholder="nombre del producto">
+            <input type="text" class="form-control" id="producto" placeholder="nombre del producto"/>
+            <div class="invalid-feedback">
+              Ingrese el nombre del producto
+            </div>
           </div>
           <div class="mb-3">
             <label for="descripcion" class="form-label">Descripcion</label>
             <textarea  id="descripcion" rows="4" class="form-control" placeholder="descripcion del producto"></textarea>
+            <div class="invalid-feedback">
+              Debe insertar una descripcion del producto
+            </div>
           </div>
           <div class="mb-3">
             <label for="url" class="form-label">URL</label>
-            <input type="text" class="form-control" id="Url" placeholder="name@example.com">
+            <input type="text" class="form-control" id="Url" placeholder="name@example.com"/>
+            <div class="invalid-feedback">
+              Debe indicar una URL
+            </div>
           </div>
           <button class="btn btn-success" type="submit">Guardar</button>
         </form>
