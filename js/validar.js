@@ -10,7 +10,7 @@ function campoNecesario(input){
 
 function validacionURL(input){
     //expresion regular de validacion de la URL
-    let direccion = /^https?:\/\/[\w\-]+(\.[\w\-]+)+[/#?]?.*$/;
+    let direccion = /^https?:\/\/[\w\-]+(\.[\w\-]+)+[/#?]?.*$/; 
     if(direccion.test(input.value)){
         input.className = "form-control is-valid";
     }else{
