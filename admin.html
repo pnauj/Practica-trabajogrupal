@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/d53c334605.js" crossorigin="anonymous"></script>
     <title>ZafariKids</title>
 </head>
 <body>
@@ -54,18 +55,18 @@
                 </div>
                 <div class="mb-3">
                     <label for="product" class="form-label">Producto</label>
-                    <input type="text" class="form-control" id="product" placeholder="Prenda.">
+                    <input type="text" class="form-control" id="product" placeholder="Tipo de prenda">
                 </div>
                 <div class="mb-3">
-                    <label for="description" class="form-label">Descripción</label>
-                    <textarea class="form-control" id="description" rows="3" placeholder="Talle , Color , sexo ."></textarea>
+                    <label for="description" class="form-label">TALLE , COLOR , SEXO </label>
+                    <textarea class="form-control" id="description" rows="3" placeholder="Describe tu prenda "></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="url" class="form-label">URL</label>
                     <input type="text" class="form-control" id="url">
                 </div>
-                <button type="submit" class="btn btn-success">Guardar</button>
-                <button class="btn btn-primary" id="btnNew">Nuevo</button>
+                <button type="submit" class="btn btn-guardar">Guardar</button>
+                <button class="btn btn-nuevo" id="btnNew">Nuevo</button>
             </form>
             <div class="alert alert-danger mt-4 d-none" role="alert" id="msgAlert">
                 Ups !! te faltaron algunos datos .
@@ -91,11 +92,33 @@
               </table>
         </section>
     </main>
-    <footer class="fondoNegro">
-        <div class="d-flex flex-column align-items-center p-4">
-            <a href="index.html" class="text-white text-decoration-none">Inicio</a>
-            <a href="admin.html" class="text-white text-decoration-none">Admin</a>
+    <footer class="container-fluid bg-dark text-center text-light">
+      <section class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+          <img
+            src="img/descarga.jpg"
+            class="img-fluid logo"
+            alt="..."
+            width="200px"
+          />
         </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
+          <h6>Seguimos en nuestras redes</h6>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram fa-2x text-secondary m-1"></i>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook fa-2x text-secondary m-1"></i>
+          </a>
+          <a href="https://twitter.com/?lang=es" target="_blank">
+            <i class="fab fa-twitter fa-2x text-secondary m-1"></i>
+          </a>
+      </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
+          <p>&copy; Todos los Derechos reservados</p>
+        </div>
+      </section>
+    </section>
     </footer>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/admin.js" type="module"></script>

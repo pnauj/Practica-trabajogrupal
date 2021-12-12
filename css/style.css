@@ -35,3 +35,33 @@
 
 }
 
+
+
+/*  Pagina Adm */
+.btn-guardar{
+    background-color: #3bab59;
+    border-color: #3bab59;
+    color: whitesmoke;  
+}
+
+.btn-nuevo{
+    background-color: #71abd1;
+    border-color: #71abd1;
+    color: whitesmoke;  
+}
+
+
+
+.btn-Editar{
+    background-color: #ffd653;
+    border-color: #ffd653;
+    color: whitesmoke;
+}
+
+.btn-Borrar{
+background-color: #ee8b47;
+border-color: #ee8b47;
+color: whitesmoke;
+}
+
+

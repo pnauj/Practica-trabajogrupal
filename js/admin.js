@@ -65,8 +65,8 @@ function createRow(product){
     <td>${product.description}</td>
     <td>${product.url}</td>
     <td>
-        <button class="btn btn-warning w-100 mb-1" onclick="preparateProductUpdate(${product.code})">Editar</button>
-        <button class="btn btn-danger w-100" onclick="deleteProduct(${product.code})">Borrar</button>
+        <button class="btn btn-Editar w-100 mb-1" onclick="preparateProductUpdate(${product.code})">Editar</button>
+        <button class="btn btn-Borrar w-100" onclick="deleteProduct(${product.code})">Borrar</button>
     </td>
   </tr>`;
 }
