@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fw-bold">
           <div class="container-fluid row-reverse">
             <a class="navbar-brand" href="index.html">
               <img src="../img/descarga.jpg" class="img-fluid logo" alt="..." width="200px">
@@ -46,7 +46,7 @@
               </ul>
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" id="buscar">
-                <button class="btn btn-outline-light" type="submit">Buscar</button>
+                <a class="btn btn-outline-light" href="Pag404.html" role="button">Buscar</a>
               </form>
             </div>
           </div>
@@ -54,11 +54,11 @@
       </header>
       <main class="container my-5">
         <article class="text-center">
-          <h1 class="display-3">Sobre Nosotros</h1>
+          <h1 class="display-3 fw-bold">Sobre Nosotros</h1>
           <hr/>
           <section">
            <div>
-              <p class="abs-center justify-content-center">
+              <p class="abs-center justify-content-center fst-italic">
                 Safari es una empresa de indumentaria infantil, para niños de 2 a
                 12 años. Nació en el 2020 y con el correr del tiempo fue
                 evolucionando para hoy en día poder brindar la mejor propuesta en
@@ -67,12 +67,12 @@
                 prendas.
               </p>
   
-              <p class="abs-center text-center">
+              <p class="abs-center text-center fst-italic">
                 CALIDAD 100% ARGENTINA: Seguimos apostando a nuestro país, por eso
                 Safari ofrece una gran variedad de productos con sello nacional!
               </p>
   
-              <p class="text-center abs-center">
+              <p class="text-center abs-center fst-italic">
                 SALÍ A JUGAR! Todas nuestras prendas están totalmente diseñadas
                 para garantizar la comodidad de nuestros niños, super cómodas y
                 con onda! Te invitamos a conocernos!!
@@ -83,7 +83,7 @@
           <h2 class="display-3 text-center">¿Quienes somos?</h2>
           <hr/>
           <article class="row d-flex justify-content-center">
-            <div class="col-sm-12 col-md-2">
+            <div class="col-sm-12 col-md-4">
               <div class="card">
                 <div class="fotoperfil">
                   <img
@@ -97,7 +97,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-2">
+            <div class="col-sm-12 col-md-4">
               <div class="card">
                 <div class="fotoperfil">
                   <img
@@ -111,11 +111,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-2">
+            <div class="col-sm-12 col-md-4">
               <div class="card">
                 <div class="fotoperfil">
                   <img
-                    src="../img/WhatsApp Image 2021-12-06 at 22.50.47.jpeg"
+                    src="../img/juan.jpeg"
                     alt="Juan Pablo Torres"
                     class="fotoperfil-img"
                   />
@@ -125,7 +125,21 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-2">
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+                  <div class="fotoperfil">
+                    <img
+                      src="../img/tomas.jpg"
+                      alt="cristian brandino"
+                      class="fotoperfil-img"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Tomas Campusano</h5>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
               <div class="card">
                 <div class="fotoperfil">
                   <img
@@ -139,7 +153,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-2">
+            <div class="col-sm-12 col-md-4">
               <div class="card">
                 <div class="fotoperfil">
                   <img
@@ -152,20 +166,37 @@
                   <h5 class="card-title text-center">Cristian Bandino</h5>
                 </div>
               </div>
-            </div>
           </article>
         </section>
       </main>
       <footer class="container-fluid bg-dark text-center text-light">
         <section class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 my-5">
-              <img src="../img/descarga.jpg" class="img-fluid logo" alt="..." width="200px">
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 my-5">
-                <p>&copy; Todos los Derechos reservados</p> 
-            </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+            <img
+              src="../img/descarga.jpg"
+              class="img-fluid logo"
+              alt="logo zafari kids"
+              width="200px"
+            />
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
+            <h6>Seguimos en nuestras redes</h6>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram fa-2x text-secondary m-1"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fab fa-facebook fa-2x text-secondary m-1"></i>
+            </a>
+            <a href="https://twitter.com/?lang=es" target="_blank">
+              <i class="fab fa-twitter fa-2x text-secondary m-1"></i>
+            </a>
+        </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
+            <p>&copy; Todos los Derechos reservados</p>
+          </div>
         </section>
-    </footer>
+      </section>
+      </footer>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/admin.js"></script>
     </body>
