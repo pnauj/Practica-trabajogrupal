@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálago de electrodomésticos">
+    <meta name="keywords" content="electrodomésticos, catálago, lavarropa, microondas, compras">
+    <meta name="author" content="Tomás Campusano">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://kit.fontawesome.com/d53c334605.js" crossorigin="anonymous"></script>
-    <title>Proyecto grupal</title>
-  </head>
-  <body>
+    <title>ZafariKids</title>
+</head>
+<body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fw-bold">
         <div class="container">
@@ -52,64 +54,53 @@
         </div>
       </nav>
     </header>
-    <main>
-      <h1 class="display-3 text-center my-3 fw-bold">Administracion</h1>
-      <hr>
-      <section class="container bg-ligth my-5">
-        <form>
-          <div class="mb-3">
-            <label for="codigo" class="form-label">Codigo</label>
-            <input type="text" class="form-control" id="codigo" placeholder="1234">
-          </div>
-          <div class="mb-3">
-            <label for="producto" class="form-label">Producto</label>
-            <input type="text" class="form-control" id="producto" placeholder="nombre del producto">
-          </div>
-          <div class="mb-3">
-            <label for="descripcion" class="form-label">Descripcion</label>
-            <textarea  id="descripcion" rows="4" class="form-control" placeholder="descripcion del producto"></textarea>
-          </div>
-          <div class="mb-3">
-            <label for="cantidad" class="form-label">Cantidad</label>
-            <input type="number" class="form-control" id="cantidad" placeholder="10">
-          </div>
-          <div class="mb-3">
-            <label for="url" class="form-label">URL</label>
-            <input type="text" class="form-control" id="Url" placeholder="name@example.com">
-          </div>
-          <button class="btn btn-success" type="submit">Guardar</button>
-        </form>
-      </section>
-      <section class="container my-5">
-        <h2 class="fw-bold">Lista Productos</h2>
-        <hr>
-        <button class="btn btn-success" id="btnAgregar">Nuevo</button>
-        <div class="table-responsive">
-          <table class="table my-5">
-            <thead>
-              <tr>
-                <th scope="col">Nombre</th>
-                <th scope="col">Codigo</th>
-                <th scope="col">Descripcion</th>
-                <th scope="col">Url</th>
-                <th scope="col">Acciones</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Nombre</td>
-                <td>Codigo</td>
-                <td>Descripcion</td>
-                <td>url</td>
-                <td>
-                  <button class="btn btn-warning">Editar</button>
-                  <button class="btn btn-danger">Borrar</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+    <main class="container">
+        <section>
+            <h1  class="display-3 m-4 text-center" class="Eligetuprenda">Elige Tus Prendas</h1>
+            <hr>
+            <form class="mb-3" id="formProduct">
+                <div class="mb-3">
+                    <label for="code" class="form-label">Código</label>
+                    <input type="text" class="form-control" id="code" placeholder="1234">
+                </div>
+                <div class="mb-3">
+                    <label for="product" class="form-label">Producto</label>
+                    <input type="text" class="form-control" id="product" placeholder="Tipo de prenda">
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">TALLE , COLOR , SEXO </label>
+                    <textarea class="form-control" id="description" rows="3" placeholder="Describe tu prenda "></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="url" class="form-label">URL</label>
+                    <input type="text" class="form-control" id="url">
+                </div>
+                <button type="submit" class="btn btn-guardar">Guardar</button>
+                <button class="btn btn-nuevo" id="btnNew">Nuevo</button>
+            </form>
+            <div class="alert alert-danger mt-4 d-none" role="alert" id="msgAlert">
+                Ups !! te faltaron algunos datos .
+            </div>
+        </section>
+        <div>
+            <h1 class="display-3 text-center"> Tu Productos !!</h1>
+            <hr>
         </div>
-      </section>
+        <section class="table-responsive">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Cod.</th>
+                    <th scope="col">Producto</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">URL</th>
+                    <th scope="col">Acciones</th>
+                  </tr>
+                </thead>
+                <tbody id="tableProducts">
+                </tbody>
+              </table>
+        </section>
     </main>
     <footer class="container-fluid bg-dark text-center text-light">
       <section class="row">
@@ -139,9 +130,8 @@
       </section>
     </section>
     </footer>
-    <script src="js/admin.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  </body>
+    <script src="js/admin.js" type="module"></script>
+</body>
+
 </html>
-
-

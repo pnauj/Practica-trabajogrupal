@@ -35,3 +35,65 @@ img:hover {
     border: none;
 }
 
+
+.logo {
+    border-radius: 50%;
+}
+
+.fotoperfil{
+    text-align: center;
+}
+
+.fotoperfil-img{
+    width: 175px;
+    height:175px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+
+
+@media all and (min-width: 360px) and (max-width: 740px) {
+    .baner {
+        height: 110%;
+        object-fit: cover;
+        
+    }
+
+    #bannerFinal {
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+
+
+
+/*  Pagina Adm */
+.btn-guardar{
+    background-color: #3bab59;
+    border-color: #3bab59;
+    color: whitesmoke;  
+}
+
+.btn-nuevo{
+    background-color: #71abd1;
+    border-color: #71abd1;
+    color: whitesmoke;  
+}
+
+
+
+.btn-Editar{
+    background-color: #ffd653;
+    border-color: #ffd653;
+    color: whitesmoke;
+}
+
+.btn-Borrar{
+background-color: #ee8b47;
+border-color: #ee8b47;
+color: whitesmoke;
+}
+
+
