@@ -36,6 +36,7 @@ img:hover {
 }
 
 
+
 .logo {
     border-radius: 50%;
 }
@@ -96,4 +97,15 @@ border-color: #ee8b47;
 color: whitesmoke;
 }
 
+
+/* pagina principal */
+
+.btn-ver{
+     background-color: #ffd653;
+     color: whitesmoke;
+     width: 100%;
+     border-color: whitesmoke;
+ 
+    
+}
 
