@@ -8,7 +8,8 @@ function initialCard(product){
     <img src="${product.url}" class="card-img-top" alt="${product.product}">
     <div class="card-body">
     <h5 class="card-title">${product.product}</h5>
-    <p class="card-text">${product.description}</p>
+    <p class="card-text  text">${product.description}</p>
+    <a href="../pages/pag404.html" class="btn btn-ver">Ver</a>
     </div>
     </div>
     </div>`
