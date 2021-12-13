@@ -109,3 +109,21 @@ color: whitesmoke;
     
 }
 
+
+/*carrucel */
+  
+.position-rel-slider {
+    position: relative;
+  }
+  
+.main-relative {
+    position: relative;
+    top: 107px;
+  }
+
+  .objFit {
+    object-fit: cover;
+    width: 100% !important;
+    height: 100%;
+  }
+  

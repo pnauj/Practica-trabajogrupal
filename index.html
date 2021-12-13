@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/Error404.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/d53c334605.js" crossorigin="anonymous"></script>
-       <title>ZafariKids</title>
+       <title>SafariKids</title>
 </head>
 <body>   
 </head>
@@ -46,17 +46,81 @@
           </nav>
     </header>
     <main class="container">
+      
         <h1 class="display-3 text-center fw-bold my-3">Catalogo Verano 2021</h1>
-        <hr>
-        <section class="container-fluid">
-          <img id="imagen-central" src="img/Banner_Invierno 2021_Facheritos.jpg" class="img-fluid" alt="">
+          </div>
+          <div
+            id="bannerPrincipal"
+            class="carousel car-height slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#bannerPrincipal"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#bannerPrincipal"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#bannerPrincipal"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner car-height">
+              <div class="carousel-item active height">
+                <img
+                  class="d-block objFit filtro-img-slider"
+                  src="img/carusel.jpg"
+                  alt="Verano2022"
+                />
+              </div>
+              <div class="carousel-item height">
+                <img
+                  class="d-block objFit filtro-img-slider"
+                  src="img/carusel2.jpg"
+                  alt="Niñosenplaya"
+                />
+              </div>
+              <div class="carousel-item height">
+                <img
+                  class="d-block objFit filtro-img-slider"
+                  src="img/carusel4.jpeg"
+                  alt="nenesjugando"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#bannerPrincipal"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#bannerPrincipal"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </section>
-
-        <section class="row">
-            
-            
-            
         </section>
+        <section class="row">   </section>
       </article>
 
         <articule class="row" id='grid'>
@@ -106,7 +170,7 @@
         </div>
       </section>
     </section>
-      </footer>
+  </footer>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
 </body>

@@ -51,7 +51,7 @@ function createProduct(){
     saveLocalStorage();
     Swal.fire(
         'Tu Prenda fue Elegida !',
-        'Exelente eleccion !',
+        'Excelente elección !',
         'success'
     );
     createRow(newProduct);
@@ -99,7 +99,7 @@ function updateProduct(){
     saveLocalStorage();
     Swal.fire(
         'Tu Prenda fue Elegida !',
-        'Exelente eleccion !',
+        'Excelente eleccion !',
         'success'
     );
     cleanForm();
@@ -114,7 +114,7 @@ window.deleteProduct = function (code){
     deleteTable();
     listProducts.forEach((itemProduct)=>{createRow(itemProduct)});
     Swal.fire(
-        'Tu prenda fue Modificada!',
+        'Tu prenda fue eliminada de la lista !',
         'Sigue eligiendo',
         'success'
     );
