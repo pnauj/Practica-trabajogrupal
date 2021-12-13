@@ -1,6 +1,6 @@
 # Proyecto SAFARIKIDS
 
-*SAFARI es el nombre de una empresa indumentaria para niños entre los 2 y los 12 años, de la cual nuestro equipo realizó el sitio WEB. 
+*SAFARIKIDS es el nombre de una empresa indumentaria para niños entre los 2 y los 12 años, de la cual nuestro equipo realizó el sitio WEB. 
 Este proyecto se realizó utilizando javascript puro para hacer un CRUD, que consiste en crear, recorrer, actualizar y borrar información*
 
 
