@@ -1,4 +1,4 @@
-# Proyecto SAFARI
+# Proyecto SAFARIKIDS
 
 *SAFARI es el nombre de una empresa indumentaria para niños entre los 2 y los 12 años, de la cual nuestro equipo realizó el sitio WEB. 
 Este proyecto se realizó utilizando javascript puro para hacer un CRUD, que consiste en crear, recorrer, actualizar y borrar información*
@@ -6,7 +6,7 @@ Este proyecto se realizó utilizando javascript puro para hacer un CRUD, que con
 
 ## Demo 🧷
 
-[Proyecto Safari](http://127.0.0.1:5500/index.html)
+[Proyecto Safari](https://upbeat-lalande-c5f44a.netlify.app/)
 
 
 ## Este sitio ha sido construido con:
