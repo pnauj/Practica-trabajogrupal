@@ -1,17 +1,131 @@
 
+
+.logo {
+  border-radius: 50%;
+}
+
+.fotoperfil {
+  text-align: center;
+}
+
+.fotoperfil-img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+img:hover {
+  position: relative;
+  bottom: 5px;
+  left: 3px;
+  filter: blur(0px);
+  filter: opacity(50%);
+}
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.imagen {
+  width: 55%;
+  height: 70%;
+  box-shadow: 5px 5px 10px gray;
+}
+
 .card {
     border: none;
 }
+
+
 
 .logo {
     border-radius: 50%;
 }
 
+.fotoperfil{
+    text-align: center;
+}
+
+.fotoperfil-img{
+    width: 175px;
+    height:175px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+
+
 @media all and (min-width: 360px) and (max-width: 740px) {
     .baner {
-        height: 280px;
+        height: 110%;
         object-fit: cover;
         
     }
 
+    #bannerFinal {
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+
+
+/*  Pagina Adm */
+.btn-guardar{
+    background-color: #3bab59;
+    border-color: #3bab59;
+    color: whitesmoke;  
 }
+
+.btn-nuevo{
+    background-color: #71abd1;
+    border-color: #71abd1;
+    color: whitesmoke;  
+}
+
+
+
+.btn-Editar{
+    background-color: #ffd653;
+    border-color: #ffd653;
+    color: whitesmoke;
+}
+
+.btn-Borrar{
+background-color: #ee8b47;
+border-color: #ee8b47;
+color: whitesmoke;
+}
+
+
+/* pagina principal */
+
+.btn-ver{
+     background-color: #ffd653;
+     color: whitesmoke;
+     width: 100%;
+     border-color: whitesmoke;
+ 
+    
+}
+
+
+/*carrucel */
+  
+.position-rel-slider {
+    position: relative;
+  }
+  
+.main-relative {
+    position: relative;
+    top: 107px;
+  }
+
+  .objFit {
+    object-fit: cover;
+    width: 100% !important;
+    height: 100%;
+  }
+  
